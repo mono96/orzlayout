@@ -1,0 +1,306 @@
+{
+	mode = 0;
+	koyubi = 0;
+	layout = (
+		{
+			Comment = A;
+			"No shift" = <ffff20>;
+			"With left shift" = <ff0d1f>;
+			"With right shift" = <ff0920>;
+		},
+		{
+			Comment = S;
+			"No shift" = <ff0122>;
+			"With left shift" = <ffff00>;
+			"With right shift" = <ff2622>;
+		},
+		{
+			Comment = D;
+			"No shift" = <ff110e>;
+			"With left shift" = <ff2d00>;
+			"With right shift" = <ff020e>;
+		},
+		{
+			Comment = F;
+			"No shift" = <ff280e>;
+			"With left shift" = <071020>;
+			"With right shift" = <ff050e>;
+		},
+		{
+			Comment = H;
+			"No shift" = <ffff2a>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = G;
+			"No shift" = <ff010e>;
+			"With left shift" = <ff2e1f>;
+			"With right shift" = <ff060e>;
+		},
+		{
+			Comment = Z;
+			"No shift" = <ff3a2f>;
+			"With left shift" = <ff0720>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = X;
+			"No shift" = <ff0422>;
+			"With left shift" = <ffff1b>;
+			"With right shift" = <ff0b22>;
+		},
+		{
+			Comment = C;
+			"No shift" = <ff0120>;
+			"With left shift" = <ff0f1f>;
+			"With right shift" = <ff0620>;
+		},
+		{
+			Comment = V;
+			"No shift" = <ff0320>;
+			"With left shift" = <ff1000>;
+			"With right shift" = <ff0b20>;
+		},
+		{
+			Comment = "";
+			"No shift" = <ffffff>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = B;
+			"No shift" = <ff040e>;
+			"With left shift" = <ff0722>;
+			"With right shift" = <ff0b0e>;
+		},
+		{
+			Comment = Q;
+			"No shift" = <ffff2f>;
+			"With left shift" = <ff0700>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = W;
+			"No shift" = <ff2800>;
+			"With left shift" = <ffff0e>;
+			"With right shift" = <ff0500>;
+		},
+		{
+			Comment = E;
+			"No shift" = <ff1100>;
+			"With left shift" = <ff0f22>;
+			"With right shift" = <ff0200>;
+		},
+		{
+			Comment = R;
+			"No shift" = <ff281f>;
+			"With left shift" = <071000>;
+			"With right shift" = <ff051f>;
+		},
+		{
+			Comment = Y;
+			"No shift" = <ffff1e>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = T;
+			"No shift" = <ff0100>;
+			"With left shift" = <ff0f0e>;
+			"With right shift" = <ff0600>;
+		},
+		{
+			Comment = 1;
+			"No shift" = <ffff12>;
+			"With left shift" = <ff382c>;
+			"With right shift" = <ff382c>;
+		},
+		{
+			Comment = 2;
+			"No shift" = <ffff13>;
+			"With left shift" = <ffff2c>;
+			"With right shift" = <ffff2c>;
+		},
+		{
+			Comment = 3;
+			"No shift" = <ffff14>;
+			"With left shift" = <ff3818>;
+			"With right shift" = <ff3818>;
+		},
+		{
+			Comment = 4;
+			"No shift" = <ffff15>;
+			"With left shift" = <ffff1e>;
+			"With right shift" = <ffff1e>;
+		},
+		{
+			Comment = 6;
+			"No shift" = <ffff5d>;
+			"With left shift" = <ff385d>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = 5;
+			"No shift" = <ffff17>;
+			"With left shift" = <ffff2a>;
+			"With right shift" = <ffff2a>;
+		},
+		{
+			Comment = "^";
+			"No shift" = <ff3a1b>;
+			"With left shift" = <ff382a>;
+			"With right shift" = <ff382a>;
+		},
+		{
+			Comment = 9;
+			"No shift" = <ffff1c>;
+			"With left shift" = <ff381c>;
+			"With right shift" = <ff381c>;
+		},
+		{
+			Comment = 7;
+			"No shift" = <ffff16>;
+			"With left shift" = <ff3a1e>;
+			"With right shift" = <ff3a1e>;
+		},
+		{
+			Comment = -;
+			"No shift" = <ffff1d>;
+			"With left shift" = <ff381e>;
+			"With right shift" = <ff381e>;
+		},
+		{
+			Comment = 8;
+			"No shift" = <ffff1a>;
+			"With left shift" = <ff3a2a>;
+			"With right shift" = <ff3a2a>;
+		},
+		{
+			Comment = 0;
+			"No shift" = <ffff19>;
+			"With left shift" = <ff3819>;
+			"With right shift" = <ff3819>;
+		},
+		{
+			Comment = "[";
+			"No shift" = <ffff2b>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = O;
+			"No shift" = <ff2820>;
+			"With left shift" = <ff0520>;
+			"With right shift" = <ff0f20>;
+		},
+		{
+			Comment = U;
+			"No shift" = <ff0f00>;
+			"With left shift" = <ff2300>;
+			"With right shift" = <ff101f>;
+		},
+		{
+			Comment = "@";
+			"No shift" = <ff3a2b>;
+			"With left shift" = <ff2322>;
+			"With right shift" = <ff070e>;
+		},
+		{
+			Comment = I;
+			"No shift" = <ff1122>;
+			"With left shift" = <ff0222>;
+			"With right shift" = <ff2d22>;
+		},
+		{
+			Comment = P;
+			"No shift" = <ff1120>;
+			"With left shift" = <ff0220>;
+			"With right shift" = <ff2e00>;
+		},
+		{
+			Comment = "";
+			"No shift" = <ffffff>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = L;
+			"No shift" = <ff2822>;
+			"With left shift" = <ff0522>;
+			"With right shift" = <ff2d1f>;
+		},
+		{
+			Comment = J;
+			"No shift" = <ff0400>;
+			"With left shift" = <ff0b00>;
+			"With right shift" = <ff2e22>;
+		},
+		{
+			Comment = :;
+			"No shift" = <ff2d2d>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <071120>;
+		},
+		{
+			Comment = K;
+			"No shift" = <ff111f>;
+			"With left shift" = <ff021f>;
+			"With right shift" = <ffff1f>;
+		},
+		{
+			Comment = ";";
+			"No shift" = <ffff22>;
+			"With left shift" = <ff231f>;
+			"With right shift" = <07101f>;
+		},
+		{
+			Comment = "]";
+			"No shift" = <ffff33>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = ",";
+			"No shift" = <ff011f>;
+			"With left shift" = <ff061f>;
+			"With right shift" = <ff1020>;
+		},
+		{
+			Comment = /;
+			"No shift" = <ff041f>;
+			"With left shift" = <ff0b1f>;
+			"With right shift" = <ff0d00>;
+		},
+		{
+			Comment = N;
+			"No shift" = <ffff5e>;
+			"With left shift" = <ffffff>;
+			"With right shift" = <ffffff>;
+		},
+		{
+			Comment = M;
+			"No shift" = <ff2e0e>;
+			"With left shift" = <ff2320>;
+			"With right shift" = <ff2d20>;
+		},
+		{
+			Comment = .;
+			"No shift" = <ff2d0e>;
+			"With left shift" = <ff230e>;
+			"With right shift" = <ff2e20>;
+		},
+		{
+			Comment = "\\";
+			"No shift" = <ffff5d>;
+			"With left shift" = <ffff5d>;
+			"With right shift" = <ffff5d>;
+		},
+		{
+			Comment = _;
+			"No shift" = <ffff2c>;
+			"With left shift" = <ffff2c>;
+			"With right shift" = <ff071f>;
+		},
+	);
+}
