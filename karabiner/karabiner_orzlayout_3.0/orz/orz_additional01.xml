@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<root>
+
+    <!--
+     orz 20130320 002
+     Thanks a lot!
+     Oyayubi forum
+     shiology.com
+
+     Ohigashi builded
+     -->
+
+     <item>
+        <name>Command_R to [ </name>
+        <identifier>remap.commandR2hometest_orz</identifier>
+        <autogen>--KeyToKey-- KeyCode::COMMAND_R, KeyCode::JIS_BRACKET_LEFT</autogen>
+    </item>
+
+    <item>
+        <name>ALT_R to ] </name>
+        <identifier>remap.alt_R_2_]_orz</identifier>
+        <autogen>--KeyToKey-- KeyCode::OPTION_R , KeyCode::JIS_BRACKET_RIGHT</autogen>
+    </item>
+
+    <item>
+        <name> センターキー変更 1</name>
+        <appendix>n &#8594; _</appendix>
+        <identifier>remap.orz_english_6key_bottom</identifier>
+        <autogen>--KeyToKey-- KeyCode::N, KeyCode::JIS_UNDERSCORE</autogen>
+    </item>
+
+    <item>
+        <name> センターキー変更 2</name>
+        <appendix> y &#8594; ↑ , h &#8594; ↓ </appendix>
+        <identifier>remap.orz_english_6key_arrow</identifier>
+        <autogen>--KeyToKey-- KeyCode:: Y, KeyCode::CURSOR_UP</autogen>
+        <autogen>--KeyToKey-- KeyCode:: H, KeyCode::CURSOR_DOWN</autogen>
+    </item>
+
+
+<item>
+    <name>For HHKB pro</name>
+    <item>
+        <!-- <identifier>PCKeyboardHack_caps</identifier> -->
+        <name>Caps(HHH)キーをAltキーにするには"PCKeyboardHack"から設定してください。 </name>
+    </item>
+
+    <item>
+        <name>左Altキーを左Commandキーにする。</name>
+        <identifier>remap.orz_left_alt_2_Command_L</identifier>
+        <autogen>--KeyToKey-- KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
+    </item>
+    <item>
+        <name>左Commandキーを左Altキーにする。</name>
+        <identifier>remap.orz_commad_L_2_left_alt</identifier>
+        <autogen>--KeyToKey-- KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
+    </item>
+</item>
+<item>
+            <name>Fnキー 設定 for Orzレイアウト</name>
+    <item>
+        <name>Fn6 to F12キー 設定</name>
+        <identifier>remap.orz_function</identifier>
+        <include path="orz_function.xml" />
+    </item>
+</item>
+
+</root>

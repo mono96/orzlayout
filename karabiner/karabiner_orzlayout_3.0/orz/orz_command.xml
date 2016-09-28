@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<root>
+    
+    
+    <!--
+     orz 20130610 001
+     Thanks a lot!
+     Oyayubi forum
+     shiology.com
+     
+     Ohigashi builded
+     -->
+    
+<!--
+ 
+ 
+ ■ 全右手キーを再定義せよ 20130325
+ 
+
+
+command 
+ 
+ 
+ 
+ 
+  //command + shift + H	現在ログインしているユーザアカウントの「ホーム」フォルダを開く
+  command + I	情報を見る
+  command + option + I	インスペクタを表示
+  command + control + I	概要情報を見る
+  //command + shift + I	iDisk を開く
+  command + J	表示オプションを表示
+  command + K	サーバへの接続
+  command + shift + K	ネットワークウインドウを開く
+  command + L	選択した項目のエイリアスを作る
+ command + M	ウインドウをしまう
+ command + option + M	すべてのウインドウをしまう
+ command + N	新規 Finder ウインドウ
+ command + shift + N	新規フォルダ
+ command + option + N	新規スマートフォルダ
+ command + O	選択した項目を開く
+ command + R	(エイリアスの) オリジナルを表示
+ command + shift + U	「ユーティリティ」フォルダを開く
+ 
+ 20130325 add
+ command+6,7,8,9 for book mark of safari from shiology
+ Command + ,」で環境設定 from takashi.hanamura.12
+ command+ 0,+,- for view of safari from ohigashi
+ + is left-shift only
+ 
+ 
+ 
+ excel 現在時刻
+ control+; → excelショートカット 現在時刻
+  -->
+
+<item>
+<identifier>option.orz_mode_command</identifier>
+        
+        <name>Command ＋ P プリント</name>
+        <autogen>__KeyToKey__ KeyCode::JIS_ATMARK ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::P ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::JIS_ATMARK ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::P ,ModifierFlag::COMMAND_R </autogen>
+        
+  
+        <name>Command ＋ shift + H</name>
+        <autogen>__KeyToKey__ KeyCode::J ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L , KeyCode::H ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::J ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L , KeyCode::H ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L</autogen>
+        
+        
+        <name>Command ＋ option(L) + I インスペクタを表示</name>
+        <autogen>__KeyToKey__ KeyCode::O ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L, KeyCode::I, ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::O ,ModifierFlag::COMMAND_R , ModifierFlag::OPTION_L, KeyCode::I ,ModifierFlag::COMMAND_R , ModifierFlag::OPTION_L</autogen>
+
+        
+        <name>Command ＋ I 情報を見る</name>
+        <autogen>__KeyToKey__ KeyCode::O ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::I,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::O ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::I ,ModifierFlag::COMMAND_R </autogen>
+    
+        <name>Command ＋ K サーバへの接続</name>
+        <autogen>__KeyToKey__ KeyCode::L ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::K ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::L ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::K ,ModifierFlag::COMMAND_R </autogen>
+    
+    
+        <name>Command + shift + K	ネットワークウインドウを開く</name>
+        <autogen>__KeyToKey__ KeyCode::L ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L , KeyCode::K ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::L ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L , KeyCode::K ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L</autogen>
+    
+        <name>Command + J	表示オプションを表示</name>
+        <autogen>__KeyToKey__ KeyCode::K ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::J ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::K ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::J ,ModifierFlag::COMMAND_R </autogen>
+    
+        <name>Command + L	選択した項目のエイリアスを作る</name>
+        <autogen>__KeyToKey__ KeyCode::SEMICOLON ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::L ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::SEMICOLON ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::L ,ModifierFlag::COMMAND_R </autogen>
+ 
+        <name>Command + option + M	すべてのウインドウをしまう</name>
+        <autogen>__KeyToKey__ KeyCode::COMMA ,ModifierFlag::COMMAND_L  , ModifierFlag::OPTION_L, KeyCode::M ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::COMMA ,ModifierFlag::COMMAND_R  , ModifierFlag::OPTION_L, KeyCode::M ,ModifierFlag::COMMAND_R , ModifierFlag::OPTION_L</autogen>
+    
+        <name>Command + M	ウインドウをしまう</name>
+        <autogen>__KeyToKey__ KeyCode::COMMA ,ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::M ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::COMMA ,ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::M ,ModifierFlag::COMMAND_R </autogen>
+    
+        <name>Command + N	新規 Finder ウインドウ</name>
+        <autogen>__KeyToKey__ KeyCode::M ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::N ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::M ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::N ,ModifierFlag::COMMAND_R </autogen>
+    
+        <name>Command + shift + N	新規フォルダ</name>
+        <autogen>__KeyToKey__ KeyCode::M ,ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L, KeyCode::N ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::M ,ModifierFlag::COMMAND_R, ModifierFlag::SHIFT_L, KeyCode::N ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L</autogen>
+    
+        <name>Command + option + N	新規スマートフォルダ</name>
+        <autogen>__KeyToKey__ KeyCode::M ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L, KeyCode::N ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::M ,ModifierFlag::COMMAND_R , ModifierFlag::OPTION_L, KeyCode::N ,ModifierFlag::COMMAND_R , ModifierFlag::OPTION_L</autogen>
+    
+        <name>Command + O	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::P ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::O ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::P ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::O ,ModifierFlag::COMMAND_R </autogen>
+    
+        <name>Command + shift + U	「ユーティリティ」フォルダを開く</name>
+        <autogen>__KeyToKey__ KeyCode::I ,ModifierFlag::COMMAND_L  , ModifierFlag::SHIFT_L, KeyCode::U ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::I ,ModifierFlag::COMMAND_R  , ModifierFlag::SHIFT_L, KeyCode::U ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L</autogen>
+
+        <name>Command + shift + i	evernote</name>
+        <autogen>__KeyToKey__ KeyCode::O ,ModifierFlag::COMMAND_L  , ModifierFlag::SHIFT_L, KeyCode::I ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::O ,ModifierFlag::COMMAND_R  , ModifierFlag::SHIFT_L, KeyCode::I ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L</autogen>
+        
+                <name>Command + shift + o	evernote</name>
+        <autogen>__KeyToKey__ KeyCode::P ,ModifierFlag::COMMAND_L  , ModifierFlag::SHIFT_L, KeyCode::O ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::P ,ModifierFlag::COMMAND_R  , ModifierFlag::SHIFT_L, KeyCode::O ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L</autogen>   
+    
+        <!-- add 20130325 -->
+    
+        <!-- Command + ,」で環境設定 -->
+        <name>Command + O	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::DOT ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::COMMA ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::DOT ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::COMMA ,ModifierFlag::COMMAND_R </autogen>
+    
+        <!--command+6,7,8,9 for book mark of safari from shiology-->
+    
+        <name>Command + 6	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::KEY_7 ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::KEY_6 ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_7 ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::KEY_6 ,ModifierFlag::COMMAND_R </autogen>
+    
+    
+        <name>Command + 7	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::KEY_8 ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::KEY_7 ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_8 ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::KEY_7 ,ModifierFlag::COMMAND_R </autogen>
+
+    
+        <name>Command + 8	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::KEY_9 ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::KEY_8 ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_9 ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::KEY_8 ,ModifierFlag::COMMAND_R </autogen>
+
+    
+        <name>Command + 9	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::KEY_0 ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::KEY_9 ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_0 ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::KEY_9 ,ModifierFlag::COMMAND_R </autogen>
+    
+        <!--command+ 0,+,- for view of safari from ohigashi-->
+        <name>Command + 0	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::MINUS ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::KEY_0 ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::MINUS ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::KEY_0 ,ModifierFlag::COMMAND_R </autogen>
+    
+    
+        <name>Command + "-"	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::JIS_HAT ,ModifierFlag::COMMAND_L  | ModifierFlag::NONE, KeyCode::MINUS ,ModifierFlag::COMMAND_L </autogen>
+        <autogen>__KeyToKey__ KeyCode::JIS_HAT ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::MINUS ,ModifierFlag::COMMAND_R </autogen>
+    
+        
+        <name>Command + "+"	選択した項目を開く</name>
+        <autogen>__KeyToKey__ KeyCode::QUOTE , ModifierFlag::COMMAND_L  | ModifierFlag::SHIFT_L, KeyCode::SEMICOLON ,ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::QUOTE ,ModifierFlag::COMMAND_R  | ModifierFlag::SHIFT_L, KeyCode::SEMICOLON ,ModifierFlag::COMMAND_R | ModifierFlag::SHIFT_L</autogen>
+    
+    
+    
+
+</item>
+
+ <item>
+        <name>excel 現在時刻 and COMMAND_L +; with Orz</name>
+        <identifier>excel.orz__control+;_nowtime</identifier>
+        <autogen>--KeyToKey-- KeyCode::JIS_COLON, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::SEMICOLON , ModifierFlag::COMMAND_L , KeyCode::VK_NONE </autogen>
+                <autogen>--KeyToKey-- KeyCode::JIS_COLON, ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::SEMICOLON , ModifierFlag::COMMAND_R , KeyCode::VK_NONE </autogen>
+</item>
+
+</root>

@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<!--
+orzレイアウトVer2.1 Simple Setting Mode
+ Thanks a lot!
+ Oyayubi forum
+ shiology.com
+
+last UPDATE 2015-09-11
+ Ohigashi builded
+Add Simple setting
+ -->
+
+<root>
+
+        <item>
+            <name>日本語入力</name>
+          		<identifier>remap.simple_orz_roman_space_kana</identifier>
+              				<appendix> ・左親指キー＝スペース</appendix>
+              				<appendix> ・右親指キー＝かな</appendix>
+              				<appendix>＜IME ローマ字モード＞</appendix>
+          		          <include path="simple_orz_oya_roman.xml" >
+                      		<replacementdef>
+                        				<replacementname>LEFT_THUMB</replacementname>
+                        				<replacementvalue>KeyCode::SPACE</replacementvalue>
+                      		</replacementdef>
+                      		<replacementdef>
+                        				<replacementname>RIGHT_THUMB</replacementname>
+                        				<replacementvalue>KeyCode::JIS_KANA</replacementvalue>
+                      		</replacementdef>
+          		        </include>
+
+          </item>
+
+		<item>
+              <name>英字 入力</name>
+              	<identifier>remap.simple_english</identifier>
+            		<include path="simple_orz_english.xml" >
+              	</include>
+    </item>
+    <item>
+              <name>パスワード入力もorzレイアウト</name>
+                <identifier>password.off.orz-layout</identifier>
+    </item>
+
+		 <item>
+              <name>Commandキーショートカット</name>
+              	<identifier>remap.simple_cmd_orz</identifier>
+            		<include path="simple_orz_command2.xml" >
+              	</include>
+    </item>
+
+
+
+<item><name>--- (必ずどちらかを選択)-------------------------------------------</name></item>
+
+
+        <item>
+            <name> 日本語入力での「 : 」キー</name>
+        </item>
+
+        <item>
+                    <name> Deleteキー（基本はこちらを選択）</name>
+                    <identifier>remap.simple_orz_Bracket_right_2_backspace</identifier>
+                    <inputmode_only>JAPANESE</inputmode_only>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::NONE, KeyCode::DELETE</autogen>
+
+ 		</item>
+
+        <item>
+                    <name> 「 : 」キー</name>
+                    <identifier>remap.simple_orz_Bracket_right_original</identifier>
+                    <inputmode_only>JAPANESE</inputmode_only>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::NONE, KeyCode::JIS_COLON, KeyCode::VK_NONE</autogen>
+        </item>
+
+<item><name>----------------------------------------------------------------------</name></item>
+</root>

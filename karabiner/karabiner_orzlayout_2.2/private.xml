@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<!--
+orzレイアウトVer2.1
+ Thanks a lot!
+ Oyayubi forum
+ shiology.com
+
+last UPDATE 2015-09-11
+ Ohigashi builded
+Add Simple setting
+ -->
+
+<root>
+    <item>
+        <name>「親指シフト Orzレイアウト シンプルモード」</name>
+        <include path="orz/simple/orz_simple.xml" />
+    </item>
+
+    <item>
+        <name>「親指シフト Orzレイアウト 詳細設定モード」</name>
+        <include path="orz/orz_base.xml" />
+    </item>
+</root>

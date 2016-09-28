@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<root>
+
+<!--
+orzレイアウトVer2.1 Simple Setting Mode
+ Thanks a lot!
+ Oyayubi forum
+ shiology.com
+
+last UPDATE 2015-09-11 
+ Ohigashi builded
+Add Simple setting
+ -->
+
+
+<!-- 67890-^ -->
+
+	  	<!-- Command + ¥ -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_6 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::JIS_YEN ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + ¥ -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_6 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::JIS_YEN ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command + option + ¥ -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_6 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::JIS_YEN ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+  
+
+
+	<!--command+6,7,8,9 for book mark of safari from shiology-->
+    
+        <!-- Command + 6	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_7 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::KEY_6 ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift L + 6	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_7  ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_6 ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        	    
+        <!-- Command + 7	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_8 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::KEY_7 ,ModifierFlag::COMMAND_L </autogen>
+		<!-- Command + shift L + 7	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_8  ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_7 ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+
+    
+        <!-- Command + 8	選択した項目を開く -->
+      	  <autogen>__KeyToKey__ KeyCode::KEY_9 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::KEY_8 ,ModifierFlag::COMMAND_L </autogen>
+        	<autogen>__KeyToKey__ KeyCode::KEY_9 ,ModifierFlag::COMMAND_R  | ModifierFlag::NONE, KeyCode::KEY_8 ,ModifierFlag::COMMAND_R </autogen>
+        <!-- Command + shift L + 8	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_9  ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_8 ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        	<autogen>__KeyToKey__ KeyCode::KEY_9  ,ModifierFlag::COMMAND_R  , ModifierFlag::SHIFT_L, KeyCode::KEY_8 ,ModifierFlag::COMMAND_R , ModifierFlag::SHIFT_L</autogen>  
+
+
+        <!-- Command + 9	選択した項目を開く -->
+       	 	<autogen>__KeyToKey__ KeyCode::KEY_0 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::KEY_9 ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift L + 9	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::KEY_0  ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_9 ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>  
+
+    
+        <!--command+ 0,+,- for view of safari from ohigashi-->
+        <!-- Command + 0	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::MINUS ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::KEY_0 ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift L + 0	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::MINUS ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::KEY_0 ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+
+    
+    
+        <!-- Command + -	 選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_HAT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::MINUS ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift L + -	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_HAT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::MINUS  ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+
+         
+<!-- yuiop@ -->
+
+		<!-- Command + JIS_BRACKET_LEFT -->
+ 			<autogen>__KeyToKey__ KeyCode::Y ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::JIS_BRACKET_LEFT ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + y -->
+        	<autogen>__KeyToKey__ KeyCode::Y ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::JIS_BRACKET_LEFT ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command + option + y -->
+        	<autogen>__KeyToKey__ KeyCode::Y ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::JIS_BRACKET_LEFT ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+  		<!-- Command + Y -->
+        	<autogen>__KeyToKey__ KeyCode::U ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::Y ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + y -->
+        	<autogen>__KeyToKey__ KeyCode::U ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::Y ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command + option + y -->
+        	<autogen>__KeyToKey__ KeyCode::U ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::Y ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+
+  		<!-- Command + U -->
+        	<autogen>__KeyToKey__ KeyCode::I ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::U ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + U	「ユーティリティ」フォルダを開く -->
+       		<autogen>__KeyToKey__ KeyCode::I ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::U ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command + option + y -->
+        	<autogen>__KeyToKey__ KeyCode::I ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::U ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+ 		 <!-- Command ＋ I 情報を見る -->
+        	<autogen>__KeyToKey__ KeyCode::O ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::I,ModifierFlag::COMMAND_L </autogen>
+         <!-- Command + I -->
+        	<autogen>__KeyToKey__ KeyCode::O ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::I ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + i	evernote -->
+        	<autogen>__KeyToKey__ KeyCode::O ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::I ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command ＋ option(L) + I インスペクタを表示 -->
+        	<autogen>__KeyToKey__ KeyCode::O ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::I, ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+    
+    
+            <!-- Command + O	選択した項目を開く -->
+        	<autogen>__KeyToKey__ KeyCode::P ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::O ,ModifierFlag::COMMAND_L </autogen>
+    	<!-- Command + shift + o	evernote -->
+        	<autogen>__KeyToKey__ KeyCode::P ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::O ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command + option + O -->
+        	<autogen>__KeyToKey__ KeyCode::P ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::O ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+		<!-- Command ＋ P プリント -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_ATMARK ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::P ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + P -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_ATMARK ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::P ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command + option + N -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_ATMARK ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::P ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+        	
+       <!-- Command + JIS_ATMARK -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_BRACKET_LEFT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::JIS_ATMARK ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + N -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_BRACKET_LEFT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::JIS_ATMARK ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L </autogen>
+        <!-- Command + option + N -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_BRACKET_LEFT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::JIS_ATMARK ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+
+<!-- hjkl;:+ -->    
+
+      	<!-- Command + JIS_BRACKET_RIGHT -->
+        	<autogen>__KeyToKey__ KeyCode::H ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::JIS_BRACKET_RIGHT ,ModifierFlag::COMMAND_L </autogen>
+		<!-- Command ＋ shift + H -->
+        	<autogen>__KeyToKey__ KeyCode::H ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::JIS_BRACKET_RIGHT ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + H -->
+        	<autogen>__KeyToKey__ KeyCode::H ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::JIS_BRACKET_RIGHT ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+  		<!-- Command + H -->
+        	<autogen>__KeyToKey__ KeyCode::J ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::H ,ModifierFlag::COMMAND_L </autogen>
+		<!-- Command ＋ shift + H -->
+        	<autogen>__KeyToKey__ KeyCode::J ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::H ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + H -->
+        	<autogen>__KeyToKey__ KeyCode::J ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::H ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+		<!-- Command + J	表示オプションを表示 -->
+        	<autogen>__KeyToKey__ KeyCode::K ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::J ,ModifierFlag::COMMAND_L </autogen>
+		<!-- Command ＋ shift + H -->
+        	<autogen>__KeyToKey__ KeyCode::K ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::J ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + H -->
+        	<autogen>__KeyToKey__ KeyCode::K ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::J ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+		
+
+		<!-- Command ＋ K サーバへの接続 -->
+        	<autogen>__KeyToKey__ KeyCode::L ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::K ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + K	ネットワークウインドウを開く -->
+        	<autogen>__KeyToKey__ KeyCode::L ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::K ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + K -->
+        	<autogen>__KeyToKey__ KeyCode::L ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::K ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+    
+            
+        <!-- Command + L	選択した項目のエイリアスを作る -->
+			<autogen>__KeyToKey__ KeyCode::SEMICOLON ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::L ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + L -->
+        	<autogen>__KeyToKey__ KeyCode::SEMICOLON ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::L ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + L -->
+        	<autogen>__KeyToKey__ KeyCode::SEMICOLON ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::L ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+    
+
+
+        <!-- Command + ;	選択した項目を開く excel 現在時刻  -->        	
+			<autogen>__KeyToKey__ KeyCode::QUOTE ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::SEMICOLON ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + + -->
+        	<autogen>__KeyToKey__ KeyCode::QUOTE ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::SEMICOLON ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + + -->
+        	<autogen>__KeyToKey__ KeyCode::QUOTE ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::SEMICOLON ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+    
+
+        <!-- COMMAND_L + : with Orz -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_BRACKET_RIGHT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::QUOTE ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + : -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_BRACKET_RIGHT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::QUOTE ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + ; -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_BRACKET_RIGHT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::QUOTE ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+    
+
+<!--  nm,  -->  
+		<!-- Command +  _ -->	
+			<autogen>__KeyToKey__ KeyCode::N ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + _ -->
+        	<autogen>__KeyToKey__ KeyCode::N ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::JIS_UNDERSCORE ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option _ ; -->
+        	<autogen>__KeyToKey__ KeyCode::N ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::JIS_UNDERSCORE ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+    
+
+
+        <!-- Command + N	新規 Finder ウインドウ -->
+			<autogen>__KeyToKey__ KeyCode::M ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::N ,ModifierFlag::COMMAND_L </autogen>
+        <!-- Command + shift + N	新規フォルダ -->
+        	<autogen>__KeyToKey__ KeyCode::M ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::N ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+       	<!-- Command + option + N	新規スマートフォルダ -->        				
+        	<autogen>__KeyToKey__ KeyCode::M ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::N ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+        	
+
+        <!-- Command + M	ウインドウをしまう -->
+       		<autogen>__KeyToKey__ KeyCode::COMMA ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::M ,ModifierFlag::COMMAND_L </autogen>
+       	<!-- Command + shift + M -->
+       		<autogen>__KeyToKey__ KeyCode::COMMA ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::M ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + M	すべてのウインドウをしまう -->
+        	<autogen>__KeyToKey__ KeyCode::COMMA ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::M ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+        	    
+        <!-- Command + , で環境設定 -->
+        <!--  Command + , -->    
+			<autogen>__KeyToKey__ KeyCode::DOT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::COMMA ,ModifierFlag::COMMAND_L </autogen>
+       	<!-- Command + shift + , -->
+       		<autogen>__KeyToKey__ KeyCode::DOT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::COMMA ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + ,	 -->
+        	<autogen>__KeyToKey__ KeyCode::DOT ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::COMMA ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+		<!--  Command + . -->    
+			<autogen>__KeyToKey__ KeyCode::SLASH ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::DOT ,ModifierFlag::COMMAND_L </autogen>
+       	<!-- Command + shift + . -->
+       		<autogen>__KeyToKey__ KeyCode::SLASH ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::DOT ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + .	 -->
+        	<autogen>__KeyToKey__ KeyCode::SLASH ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::DOT ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+		<!--  Command + / -->    
+			<autogen>__KeyToKey__ KeyCode::JIS_UNDERSCORE ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  | ModifierFlag::NONE, KeyCode::SLASH ,ModifierFlag::COMMAND_L </autogen>
+       	<!-- Command + shift + / -->
+       		<autogen>__KeyToKey__ KeyCode::JIS_UNDERSCORE ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT ,KeyCode::SLASH ,ModifierFlag::COMMAND_L , ModifierFlag::SHIFT_L</autogen>
+        <!-- Command + option + / -->
+        	<autogen>__KeyToKey__ KeyCode::JIS_UNDERSCORE ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND  , MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::SLASH ,ModifierFlag::COMMAND_L , ModifierFlag::OPTION_L</autogen>
+
+
+</root>

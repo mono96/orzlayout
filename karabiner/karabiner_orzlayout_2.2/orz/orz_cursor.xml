@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<root>
+
+    
+    <!--
+     orz 20130320 002
+     Thanks a lot!
+     Oyayubi forum
+     shiology.com
+     
+     Ohigashi builded
+     -->
+    
+<!--
+
+・control+F ── カーソルを次に（右に）移動（ForwardのF）
+・control+B ── カーソルをうしろに（左に）移動（BackwardのB）
+・control+N ── カーソルを次の行に移動（Next lineのN）
+・control+P ── カーソルを前の（上の）行に移動（Previous lineのP）
+ ・control+D ── カーソルの次の（右の）文字を削除
+ ・control+H ── カーソルのひとつ前の（左の）文字を削除（つまりdeleteキーと同じ）
+ ・control+A ── カーソルを行頭に移動
+ ・control+E ── カーソルを行末に移動
+ -->   
+
+ <item>
+
+      <name>Control+PNBF to Up/Down/Left/Right</name>
+      <identifier>Control_PNBF2Up_Down_Left_Right</identifier>
+      <not>{{EMACS_MODE_IGNORE_APPS}}</not>
+
+  <autogen>__KeyToKey__ KeyCode::JIS_ATMARK, VK_CONTROL  | ModifierFlag::NONE , KeyCode::CURSOR_UP</autogen>
+  <autogen>__KeyToKey__ KeyCode::M, VK_CONTROL  | ModifierFlag::NONE , KeyCode::CURSOR_DOWN</autogen>
+  <autogen>__KeyToKey__ KeyCode::B, VK_CONTROL  | ModifierFlag::NONE , KeyCode::CURSOR_LEFT</autogen>
+  <autogen>__KeyToKey__ KeyCode::F, VK_CONTROL  | ModifierFlag::NONE , KeyCode::CURSOR_RIGHT</autogen>
+
+
+    </item>
+
+
+<item>
+      
+      <name>Control+AE to Command+Left/Right</name>
+      <identifier>Control_AE2Command_Left_Righ</identifier>
+      <not>{{EMACS_MODE_IGNORE_APPS}}</not>
+      <autogen>__KeyToKey__ KeyCode::A, VK_CONTROL | ModifierFlag::NONE , KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::E, VK_CONTROL | ModifierFlag::NONE , KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+    </item>
+
+
+
+</root>

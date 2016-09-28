@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<root>
+
+    <!--
+     orz 20130320 002
+     Thanks a lot!
+     Oyayubi forum
+     shiology.com
+     
+     Ohigashi builded
+     -->
+    
+<!--
+    control+N ── 変換＝次の候補を出す（NextのN）
+    ・control+P ── 変換＝ひとつ前の候補を出す（PreviousのP）
+    ・control+F ── 注目文節を右に移動（ForwardのF）
+    ・control+SまたはB ── 注目文節を左に移動（BackwardのB）
+    ・control+O ── 注目文節を伸ばす（たぶんOutのO）
+    ・control+I ── 注目文節を縮める（たぶんInのI）
+    ・control+J ── ひらがなに変換
+    ・control+K ── カタカナに変換
+    ・control+L ── 全角英数に変換
+    ・control+； ── 半角英数に変換（半角カタカナをonにしている場合は半角カタカナ）
+    ・control+M ── 確定（returnキーと同じ）
+ -->   
+
+<item>
+    <identifier>remap.orz_kotoeri_support</identifier>
+    <name>control+ , to「、」</name>
+    <autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::COMMA, KeyCode::VK_NONE </autogen>
+    
+
+    <name>control+ . to「。」</name>
+    <autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::DOT, KeyCode::VK_NONE </autogen>
+    
+    <name>control+I →文節を短くする</name>
+    <autogen>--KeyToKey-- KeyCode::O, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::I , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+O →文節を長くする</name>
+    <autogen>--KeyToKey-- KeyCode::P, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::O , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+J →ひらがなに変換</name>
+    <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::J , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+K →カタカナに変換</name>
+    <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::K , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+L →全角アルファベットに変換</name>
+    <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::L , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+; →半角アルファベットに変換</name>
+    <autogen>--KeyToKey-- KeyCode::JIS_COLON, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::SEMICOLON , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+    <name>control+N ── 変換＝次の候補を出す</name>
+    <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::N , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    <name>control+P ── 変換＝ひとつ前の候補を出す</name>
+    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::P , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    
+    <!--
+    
+    ・control+shift+J ── かな入力モードに変更
+    ・入力済みの文字列を選択した状態でcontrol+shift+Jを2度押し ── その文字列の再変換
+    ・control+shift+； ── 英数入力モードに変更
+    ・control+shift+N ── ことえりの単語登録画面を呼び出し
+     -->
+    
+    <name>control+shift+J ── かな入力モードに変更</name>
+    <autogen>--KeyToKey-- KeyCode::K , ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L, KeyCode::J , ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L </autogen>
+    
+    <name>control+shift+； ── 英数入力モードに変更</name>    
+    <autogen>--KeyToKey-- KeyCode::QUOTE , ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L, KeyCode::SEMICOLON , ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L </autogen>
+    
+    
+    <name>control+shift+N ── ことえりの単語登録画面を呼び出し</name>
+
+       <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L, KeyCode::N , ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L </autogen>
+
+</item>
+</root>
+

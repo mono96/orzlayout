@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<root>
+
+<!--
+orzレイアウトVer2.1 Simple Setting Mode
+ Thanks a lot!
+ Oyayubi forum
+ shiology.com
+
+last UPDATE 2015-09-11
+ Ohigashi builded
+Add Simple setting
+
+2015年10月15日 　パスワード入力画面でのorレイアウト ON OFF分岐ありに変更
+
+ -->
+
+
+<!-- ENGLISH -->
+
+
+  <block>
+    <config_not>password.off.orz-layout</config_not>
+      <inputmode_only>ENGLISH</inputmode_only>
+          <not>PASSWORD</not>
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_7,  | ModifierFlag::NONE,  KeyCode::KEY_6</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_8,  | ModifierFlag::NONE,  KeyCode::KEY_7</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_9,  | ModifierFlag::NONE,  KeyCode::KEY_8</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_0,  | ModifierFlag::NONE,  KeyCode::KEY_9</autogen>
+                    <autogen>--KeyToKey-- KeyCode::MINUS,  | ModifierFlag::NONE,  KeyCode::KEY_0</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_HAT,  | ModifierFlag::NONE,  KeyCode::MINUS,</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_YEN ,  | ModifierFlag::NONE,  KeyCode::JIS_HAT</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::U,  | ModifierFlag::NONE,  KeyCode::Y</autogen>
+                    <autogen>--KeyToKey-- KeyCode::I,  | ModifierFlag::NONE,  KeyCode::U</autogen>
+                    <autogen>--KeyToKey-- KeyCode::O,  | ModifierFlag::NONE,  KeyCode::I</autogen>
+                    <autogen>--KeyToKey-- KeyCode::P,  | ModifierFlag::NONE,  KeyCode::O</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK,  | ModifierFlag::NONE,  KeyCode::P</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT,  | ModifierFlag::NONE,  KeyCode::JIS_ATMARK</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::J,  | ModifierFlag::NONE,  KeyCode::H</autogen>
+                    <autogen>--KeyToKey-- KeyCode::K,  | ModifierFlag::NONE,  KeyCode::J</autogen>
+                    <autogen>--KeyToKey-- KeyCode::L,  | ModifierFlag::NONE,  KeyCode::K</autogen>
+                    <autogen>--KeyToKey-- KeyCode::SEMICOLON,  | ModifierFlag::NONE,  KeyCode::L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::QUOTE,  | ModifierFlag::NONE,  KeyCode::SEMICOLON</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT,  | ModifierFlag::NONE,  KeyCode::QUOTE</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::M,  | ModifierFlag::NONE,  KeyCode::N</autogen>
+                    <autogen>--KeyToKey-- KeyCode::COMMA,  | ModifierFlag::NONE, KeyCode::M</autogen>
+                    <autogen>--KeyToKey-- KeyCode::DOT,  | ModifierFlag::NONE,  KeyCode::COMMA</autogen>
+                    <autogen>--KeyToKey-- KeyCode::SLASH,  | ModifierFlag::NONE,  KeyCode::DOT</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_UNDERSCORE,  | ModifierFlag::NONE,  KeyCode::SLASH</autogen>
+
+                    <!-- shif mode -->
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_7,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_6,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_8,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_7,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_9,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_8,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_0,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_9,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::MINUS,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_0,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_HAT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::MINUS,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_YEN ,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::JIS_HAT,  ModifierFlag::SHIFT_L </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::U,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::Y,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::U,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::O,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::I,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::P,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::O,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::P,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_L </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::J,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::H,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::K,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::J,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::L,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::K,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SEMICOLON,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::L,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::QUOTE,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::SEMICOLON,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::QUOTE,  ModifierFlag::SHIFT_L </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::M,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::N,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::COMMA,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE, KeyCode::M,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::DOT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::COMMA,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SLASH,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::DOT,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_UNDERSCORE,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::SLASH, ModifierFlag::SHIFT_L </autogen>
+
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_7,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_6,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_8,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_7,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_9,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_8,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_0,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_9,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::MINUS,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_0,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_HAT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::MINUS,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_YEN ,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::JIS_HAT,  ModifierFlag::SHIFT_R </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::U,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::Y,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::U,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::O,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::I,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::P,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::O,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::P,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_R </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::J,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::H,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::K,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::J,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::L,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::K,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SEMICOLON,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::L,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::QUOTE,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::SEMICOLON,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::QUOTE,  ModifierFlag::SHIFT_R </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::M,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::N,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::COMMA,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE, KeyCode::M,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::DOT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::COMMA,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SLASH,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::DOT,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_UNDERSCORE,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::SLASH, ModifierFlag::SHIFT_R </autogen>
+
+                    <!-- 　6 to ¥ -->
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_6 , ModifierFlag::NONE, KeyCode::JIS_YEN </autogen>
+                    <autogen>__KeyToKey__ KeyCode::KEY_6 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE, KeyCode::JIS_YEN ,ModifierFlag::OPTION_L</autogen>
+
+                    <!-- Key6   -->
+
+                    <autogen>--KeyToKey-- KeyCode::Y , ModifierFlag::NONE, KeyCode::JIS_BRACKET_LEFT</autogen>
+                    <autogen>--KeyToKey-- KeyCode::H , ModifierFlag::NONE, KeyCode::JIS_BRACKET_RIGHT</autogen>
+                    <autogen>--KeyToKey-- KeyCode::N , ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_6 , ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_YEN , ModifierFlag::SHIFT_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::Y , ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_BRACKET_LEFT , ModifierFlag::SHIFT_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::H , ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_BRACKET_RIGHT , ModifierFlag::SHIFT_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::N ,  ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE , ModifierFlag::SHIFT_L</autogen>
+
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_6 , ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_YEN , ModifierFlag::SHIFT_R</autogen>
+                    <autogen>--KeyToKey-- KeyCode::Y , ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_BRACKET_LEFT , ModifierFlag::SHIFT_R</autogen>
+                    <autogen>--KeyToKey-- KeyCode::H , ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_BRACKET_RIGHT , ModifierFlag::SHIFT_R</autogen>
+                    <autogen>--KeyToKey-- KeyCode::N ,  ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE , ModifierFlag::SHIFT_R</autogen>
+
+              </block>
+
+    <block>
+        <config_only>password.off.orz-layout</config_only>
+          <inputmode_only>ENGLISH</inputmode_only>
+
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_7,  | ModifierFlag::NONE,  KeyCode::KEY_6</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_8,  | ModifierFlag::NONE,  KeyCode::KEY_7</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_9,  | ModifierFlag::NONE,  KeyCode::KEY_8</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_0,  | ModifierFlag::NONE,  KeyCode::KEY_9</autogen>
+                    <autogen>--KeyToKey-- KeyCode::MINUS,  | ModifierFlag::NONE,  KeyCode::KEY_0</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_HAT,  | ModifierFlag::NONE,  KeyCode::MINUS,</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_YEN ,  | ModifierFlag::NONE,  KeyCode::JIS_HAT</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::U,  | ModifierFlag::NONE,  KeyCode::Y</autogen>
+                    <autogen>--KeyToKey-- KeyCode::I,  | ModifierFlag::NONE,  KeyCode::U</autogen>
+                    <autogen>--KeyToKey-- KeyCode::O,  | ModifierFlag::NONE,  KeyCode::I</autogen>
+                    <autogen>--KeyToKey-- KeyCode::P,  | ModifierFlag::NONE,  KeyCode::O</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK,  | ModifierFlag::NONE,  KeyCode::P</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT,  | ModifierFlag::NONE,  KeyCode::JIS_ATMARK</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::J,  | ModifierFlag::NONE,  KeyCode::H</autogen>
+                    <autogen>--KeyToKey-- KeyCode::K,  | ModifierFlag::NONE,  KeyCode::J</autogen>
+                    <autogen>--KeyToKey-- KeyCode::L,  | ModifierFlag::NONE,  KeyCode::K</autogen>
+                    <autogen>--KeyToKey-- KeyCode::SEMICOLON,  | ModifierFlag::NONE,  KeyCode::L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::QUOTE,  | ModifierFlag::NONE,  KeyCode::SEMICOLON</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT,  | ModifierFlag::NONE,  KeyCode::QUOTE</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::M,  | ModifierFlag::NONE,  KeyCode::N</autogen>
+                    <autogen>--KeyToKey-- KeyCode::COMMA,  | ModifierFlag::NONE, KeyCode::M</autogen>
+                    <autogen>--KeyToKey-- KeyCode::DOT,  | ModifierFlag::NONE,  KeyCode::COMMA</autogen>
+                    <autogen>--KeyToKey-- KeyCode::SLASH,  | ModifierFlag::NONE,  KeyCode::DOT</autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_UNDERSCORE,  | ModifierFlag::NONE,  KeyCode::SLASH</autogen>
+
+                    <!-- shif mode -->
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_7,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_6,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_8,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_7,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_9,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_8,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_0,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_9,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::MINUS,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::KEY_0,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_HAT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::MINUS,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_YEN ,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::JIS_HAT,  ModifierFlag::SHIFT_L </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::U,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::Y,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::U,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::O,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::I,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::P,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::O,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::P,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_L </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::J,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::H,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::K,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::J,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::L,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::K,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SEMICOLON,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::L,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::QUOTE,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::SEMICOLON,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::QUOTE,  ModifierFlag::SHIFT_L </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::M,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::N,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::COMMA,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE, KeyCode::M,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::DOT,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::COMMA,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SLASH,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::DOT,  ModifierFlag::SHIFT_L </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_UNDERSCORE,  ModifierFlag::SHIFT_L  | ModifierFlag::NONE,  KeyCode::SLASH, ModifierFlag::SHIFT_L </autogen>
+
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_7,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_6,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_8,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_7,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_9,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_8,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_0,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_9,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::MINUS,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::KEY_0,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_HAT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::MINUS,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_YEN ,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::JIS_HAT,  ModifierFlag::SHIFT_R </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::U,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::Y,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::U,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::O,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::I,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::P,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::O,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::P,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::JIS_ATMARK,  ModifierFlag::SHIFT_R </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::J,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::H,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::K,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::J,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::L,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::K,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SEMICOLON,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::L,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::QUOTE,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::SEMICOLON,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::QUOTE,  ModifierFlag::SHIFT_R </autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::M,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::N,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::COMMA,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE, KeyCode::M,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::DOT,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::COMMA,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::SLASH,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::DOT,  ModifierFlag::SHIFT_R </autogen>
+                    <autogen>--KeyToKey-- KeyCode::JIS_UNDERSCORE,  ModifierFlag::SHIFT_R  | ModifierFlag::NONE,  KeyCode::SLASH, ModifierFlag::SHIFT_R </autogen>
+
+                    <!-- 　6 to ¥ -->
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_6 , ModifierFlag::NONE, KeyCode::JIS_YEN </autogen>
+                    <autogen>__KeyToKey__ KeyCode::KEY_6 ,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE, KeyCode::JIS_YEN ,ModifierFlag::OPTION_L</autogen>
+
+                    <!-- Key6   -->
+
+                    <autogen>--KeyToKey-- KeyCode::Y , ModifierFlag::NONE, KeyCode::JIS_BRACKET_LEFT</autogen>
+                    <autogen>--KeyToKey-- KeyCode::H , ModifierFlag::NONE, KeyCode::JIS_BRACKET_RIGHT</autogen>
+                    <autogen>--KeyToKey-- KeyCode::N , ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE</autogen>
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_6 , ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_YEN , ModifierFlag::SHIFT_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::Y , ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_BRACKET_LEFT , ModifierFlag::SHIFT_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::H , ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_BRACKET_RIGHT , ModifierFlag::SHIFT_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::N ,  ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE , ModifierFlag::SHIFT_L</autogen>
+
+
+                    <autogen>--KeyToKey-- KeyCode::KEY_6 , ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_YEN , ModifierFlag::SHIFT_R</autogen>
+                    <autogen>--KeyToKey-- KeyCode::Y , ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_BRACKET_LEFT , ModifierFlag::SHIFT_R</autogen>
+                    <autogen>--KeyToKey-- KeyCode::H , ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_BRACKET_RIGHT , ModifierFlag::SHIFT_R</autogen>
+                    <autogen>--KeyToKey-- KeyCode::N ,  ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE , ModifierFlag::SHIFT_R</autogen>
+
+        </block>
+
+
+
+
+
+
+
+</root>

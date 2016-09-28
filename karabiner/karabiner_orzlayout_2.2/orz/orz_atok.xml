@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<root>
+
+    <!--
+     orz 20130320 002
+     Thanks a lot!
+     Oyayubi forum
+     shiology.com
+     
+     Ohigashi builded
+     -->
+    
+<!--
+ for atok!
+ 
+     control + N ── 変換＝次の候補を出す（NextのN）
+    ・control+P ── 変換＝ひとつ前の候補を出す（PreviousのP）
+    ・control+F ── 注目文節を右に移動（ForwardのF）
+    ・control+SまたはB ── 注目文節を左に移動（BackwardのB）
+    ・control+O ── 注目文節を伸ばす（たぶんOutのO）
+    ・control+I ── 注目文節を縮める（たぶんInのI）
+    ・control+J ── ひらがなに変換
+    ・control+K ── カタカナに変換
+    ・control+L ── 全角英数に変換
+    ・control+； ── 半角英数に変換（半角カタカナをonにしている場合は半角カタカナ）
+    ・control+M ── 確定（returnキーと同じ）
+ -->   
+
+
+    <item>
+    <identifier>remap.orz_atok_support</identifier>
+    <name>control+ , to「、」</name>
+    <autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::COMMA, KeyCode::VK_NONE </autogen>
+    
+
+    <name>control+ . to「。」</name>
+    <autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::DOT, KeyCode::VK_NONE </autogen>
+    
+    <name>control+K →文節を短くする</name>
+    <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::K , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+L →文節を長くする</name>
+    <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::L , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+
+    <name>control+U →ひらがなに変換</name>
+    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::U , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+I →カタカナに変換</name>
+    <autogen>--KeyToKey-- KeyCode::O, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::I , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+    <name>control+O →半角 変換</name>
+    <autogen>--KeyToKey-- KeyCode::P, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::O , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+    <name>control+P →全角アルファベットに変換</name>
+    <autogen>--KeyToKey-- KeyCode::JIS_ATMARK, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::P , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>control+ ATMARK →半角アルファベットに変換</name>
+    <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::JIS_ATMARK , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+    <name>読み英字 かな変換  control +;</name>
+    <autogen>--KeyToKey-- KeyCode::QUOTE, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::SEMICOLON , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>部分確定 control + n</name>
+    <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::N , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+    <name>一文字削除 control + G (左手なのでリマップなし） </name>
+    <name>辞書単語削除 control + D が emacsの削除設定と重複しする点を注意</name>
+    
+    <name>変換取り消し  control +H</name>
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::H , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+
+    <name>読み入力誤り位置へ control + J</name>
+    <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::J , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+    <name>連想変換 control + A (左手なのでリマップなし）</name>
+    
+    <!--
+    <name>control+ . ── 変換＝ひとつ前の候補を出す "要 ATOK追加 キーカスタマイズ"</name>
+    <autogen>--KeyToKey-- KeyCode::DOT , ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::COMMA , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+    
+    <name>control+ , ── 変換＝次の候補を出す"要 ATOK追加 キーカスタマイズ"</name>
+    <autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::DOT , ModifierFlag::CONTROL_L , KeyCode::VK_NONE </autogen>
+     
+    -->
+    
+    <!--
+    左手でリマップなし。
+     
+     ショートカットキー
+     ひらがな入力		control + shift + Z
+     カタカナ入力		control + shift + X
+     半角英数入力   control + shift + B
+     全角英数入力		control + shift + V
+     英数入力 control + shift + C
+     単語登録 control + shift + E
+
+     -->
+    </item>
+    
+    <item>
+        <name>Command_R to Home (ATOKにて"Homeキー"を変換に割り当てると便利)</name>
+        <identifier>remap.commandR2home_orz</identifier>
+        <autogen>--KeyToKey-- KeyCode::COMMAND_R, KeyCode::HOME</autogen>
+    </item>
+    
+    
+    
+    <item><name>--- ATOK 設定 -----------------------------------------------</name></item>
+    
+    <item>
+        <name>Yキーを全角カタカナ変換(”Ctrl + I”)にする。</name>
+        <identifier>remap.jis_orz_Y_key_2_Ctrl+I</identifier>
+        <inputmode_only>JAPANESE</inputmode_only>
+        <autogen>--KeyToKey-- KeyCode::Y, ModifierFlag::NONE, KeyCode::I, ModifierFlag::CONTROL_L,  KeyCode::VK_NONE</autogen> -->
+    </item>
+    
+    <item>
+        <name>Hキーを半角英数 変換(”Ctrl + @”)にする。</name>
+        <identifier>remap.jis_orz_H_key_2_Ctrl+@</identifier>
+        <inputmode_only>JAPANESE</inputmode_only>
+        <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::NONE, KeyCode::JIS_ATMARK, ModifierFlag::CONTROL_L,  KeyCode::VK_NONE</autogen> -->
+    </item>
+    
+    <item>
+        <name>Nキーを再変換(”Ctrl + Shift + Y”)にする。</name>
+        <identifier>remap.jis_orz_N_key_2_Ctrl+SHIFT+Y</identifier>
+        <inputmode_only>JAPANESE</inputmode_only>
+        <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::NONE, KeyCode::Y, ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,  KeyCode::VK_NONE</autogen> -->
+    </item>
+    
+    
+    <item><name>------------------------------------------------------------</name></item>
+
+</root>
+

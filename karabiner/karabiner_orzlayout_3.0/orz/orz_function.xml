@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root>
+    
+    <!--
+     orz 20130320 002
+     Thanks a lot!
+     Oyayubi forum
+     shiology.com
+     
+     Ohigashi builded
+     -->
+    
+    
+<!--
+
+function key
+ -->
+    
+
+    	
+
+    
+    <autogen>__KeyToKey__ KeyCode::F6, KeyCode::F12</autogen>
+    <autogen>__KeyToKey__ KeyCode::F7, KeyCode::F6</autogen>
+    <autogen>__KeyToKey__ KeyCode::F8, KeyCode::F7</autogen>
+    <autogen>__KeyToKey__ KeyCode::F9, KeyCode::F8</autogen>
+    <autogen>__KeyToKey__ KeyCode::F10, KeyCode::F9</autogen>
+    <autogen>__KeyToKey__ KeyCode::F11, KeyCode::F10</autogen>
+    <autogen>__KeyToKey__ KeyCode::F12, KeyCode::F11</autogen>
+
+
+</root>

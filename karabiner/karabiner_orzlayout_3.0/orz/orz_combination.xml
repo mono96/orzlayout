@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<root>
+    
+    <!--
+     orz 20140611 001
+     Thanks a lot!
+     Oyayubi forum
+     shiology.com
+     
+     Ohigashi builded
+     -->
+
+<!--
+ control+H →カーソルの左の文字を削除
+ control+M →return
+ control+, →「、」
+ control+. →「。」
+control+I →文節を短くする
+control+O →文節を長くする
+control+J →ひらがなに変換
+control+K →カタカナに変換
+control+L →全角アルファベットに変換
+control+; →半角アルファベットに変換
+ 
+ 
+ control+F ── カーソルを次に（右に）移動（ForwardのF）
+ ・control+B ── カーソルをうしろに（左に）移動（BackwardのB）
+ ・control+N ── カーソルを次の行に移動（Next lineのN）
+ ・control+P ── カーソルを前の（上の）行に移動（Previous lineのP）
+ ・control+D ── カーソルの次の（右の）文字を削除
+ ・control+H ── カーソルのひとつ前の（左の）文字を削除（つまりdeleteキーと同じ）
+ ・control+A ── カーソルを行頭に移動
+ ・control+E ── カーソルを行末に移動
+
+ -->
+
+
+<item>
+        <name>commandキー for finder with Orz</name>
+        <include path="orz_command2.xml" />
+</item>
+    
+
+<item>
+    <name> ことえり CONTROLキー with Orz</name>
+    <include path="orz_kotoeri.xml" />
+</item>
+    
+<item>
+        <name>ATOK CONTROLキー with Orz</name>
+        <include path="orz_atok.xml" />    
+</item>
+    
+<item>
+<name>Emacs Mode for orz </name>
+
+	<item>
+      <name>[改行] Control+M to Return with Orz</name>
+      <identifier>option.orz_mode_control_M</identifier>
+      <!-- <not>{{EMACS_MODE_IGNORE_APPS}}</not> -->
+      <!--<autogen>--KeyToKey-- KeyCode:: COMMA, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::RETURN</autogen>-->
+      
+       <autogen>__KeyToKey__ KeyCode::COMMA, VK_CONTROL , KeyCode::RETURN</autogen>
+	</item>
+  
+    <item>
+      <name>control+H to BS</name>
+      <identifier>option.emacsmode_orz_control_h</identifier> 
+      <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::CONTROL_L | ModifierFlag::NONE,KeyCode::DELETE </autogen>
+    </item>
+    
+    <item>
+        <name>Control+D to Forward Delete</name>
+        <identifier>option.orz_emacsmode_controlD</identifier>
+        <not>{{EMACS_MODE_IGNORE_APPS}}</not>
+        <autogen>__KeyToKey__ KeyCode::D, VK_CONTROL, KeyCode::FORWARD_DELETE</autogen>
+    </item>
+    <item>
+        <name>Control+D to Forward Delete</name>
+        <appendix>(when there are no other modifiers)</appendix>
+        <identifier>option.orz_emacsmode_controlD_nomodifiers</identifier>
+        <not>{{EMACS_MODE_IGNORE_APPS}}</not>
+        <autogen>__KeyToKey__ KeyCode::D, VK_CONTROL | ModifierFlag::NONE, KeyCode::FORWARD_DELETE</autogen>
+    </item>
+        
+    <item>
+        <name>カーソルキー PNBF and Control+AE with Orz</name>
+            <!-- <identifier>remap.orz_cursol_support</identifier> 20130927 del-->
+            <include path="orz_cursor.xml" />
+    </item>
+</item>
+
+</root>

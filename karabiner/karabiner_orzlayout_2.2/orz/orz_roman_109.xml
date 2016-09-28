@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<!--
+ orz 20130320 002
+    Thanks a lot!
+        Oyayubi forum
+        shiology.com
+
+ Ohigashi builded
+ -->
+
+<root>
+
+    <item>
+        <name>＜ローマ字入力＞ 左シフト＝スペース, 右シフト＝かな -Ver. 0.01-</name>
+          		<identifier>remap.orz.roman</identifier>
+          		<include path="orz_oya_roman.xml" >
+ 		</item>
+
+
+
+<item><name>----------------------------------------------------------------------</name></item>
+
+
+	<item>
+    	<name>＜英数モード＞ 右手ホームポジション ずらす</name>
+    	<!-- <identifier>remap.orz_english</identifier> -->
+    	<include path="orz_english.xml" />
+	</item>
+
+	<item>
+    	<name>＜日本語モード＞shiftキー同時アルファベット入力 ずらす</name>
+    	<include path="orz_ja_alphabet.xml" />
+	</item>
+
+<item><name>----------------------------------------------------------------------</name></item>
+<item>
+    	<name>コンビネーションキー設定 for Orzレイアウト</name>
+    	<!-- <identifier>remap.orz_combination</identifier>  -->
+    	<include path="orz_combination.xml" />
+ </item>
+
+
+<item>
+    	<name>追加設定 for Orzレイアウト</name>
+    	<!-- <identifier>remap.orz_additional</identifier>  -->
+    	<include path="orz_additional01.xml" />
+</item>
+
+
+</root>
